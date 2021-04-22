@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <h1>HELLO NETFLIX USER</h1>
     <div v-for="(genre, idx) in netflix" :key=idx><a :href=genre.url target="_blank">{{genre.name}} </a></div>
   </div>
 </template>
