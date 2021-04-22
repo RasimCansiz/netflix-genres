@@ -1,4 +1,4 @@
-# hello-world
+# Netflix-Genres
 
 ## Project setup
 ```
