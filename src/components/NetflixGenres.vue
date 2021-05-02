@@ -8,7 +8,7 @@
 <script>
 import json from '../../static/netflix.json'
 export default {
-  name: 'HelloWorld',
+  name: 'NetflixGenres',
   props: {
     msg: String
   },
