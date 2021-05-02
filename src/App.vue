@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <hello-world :msg=msg></hello-world>
+    <netflix-genres :msg=msg></netflix-genres>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NetflixGenres from './components/NetflixGenres.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NetflixGenres
   },
   data() {
     return {
