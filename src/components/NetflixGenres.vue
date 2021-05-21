@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>HELLO NETFLIX USER</h1>
+    <h1 style="color: #e50914">HELLO NETFLIX USER</h1>
     <div class="base-classify">
       <div class="new-tryout" v-for="(genre, idx) in netflix" :key=idx>
             <a class="genres" :href=genre.url target="_blank">
@@ -30,6 +30,11 @@ export default {
     addingData(){
       this.firstSlice += 20
       this.netflix = json.slice(0 , this.firstSlice)
+      this.addingNumbers('5' , 10)
+    },
+    addingNumbers(x,y){
+      let z = x + y
+      console.log(z)
     }
   }
 
@@ -73,6 +78,7 @@ li {
   color: black;
   text-align: center;
   border: 1px solid black;
+  border-radius: 12px;
   background: white;
   text-decoration: none;
   padding: 20px;
