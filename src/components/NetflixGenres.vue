@@ -30,12 +30,7 @@ export default {
     addingData(){
       this.firstSlice += 20
       this.netflix = json.slice(0 , this.firstSlice)
-      this.addingNumbers('5' , 10)
     },
-    addingNumbers(x,y){
-      let z = x + y
-      console.log(z)
-    }
   }
 
 }
