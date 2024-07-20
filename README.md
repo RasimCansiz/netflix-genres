@@ -1,4 +1,4 @@
-# Netflix-Genres
+# try
 
 ## Project setup
 ```
